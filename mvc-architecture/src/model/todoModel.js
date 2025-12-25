@@ -1,4 +1,4 @@
-import { supabase } from '../supabaseClient';
+import { supabase } from '../config/supabaseClient.js';
 
 // REST
 export async function getTodos() {
@@ -16,4 +16,3 @@ export async function addTodo(title) {
 export async function deleteTodo(id) {
     await supabase.from('todos').delete().eq('id', id);
 }
-
