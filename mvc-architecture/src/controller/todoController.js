@@ -1,6 +1,5 @@
 import * as model from '../model/todoModel';
 
-// REST
 export async function loadTodos(setTodos) {
     const todos = await model.getTodos();
     setTodos(todos);

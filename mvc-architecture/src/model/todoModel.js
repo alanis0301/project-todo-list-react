@@ -1,6 +1,5 @@
 import { supabase } from '../config/supabaseClient.js';
 
-// REST
 export async function getTodos() {
     const { data } = await supabase
         .from('todos')

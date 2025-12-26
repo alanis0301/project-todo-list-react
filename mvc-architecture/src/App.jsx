@@ -11,7 +11,6 @@ function App() {
     useEffect(() => {
         controller.loadTodos(setTodos);
 
-        // Inscreve nas mudanças em tempo real
         const subscription = supabase
             .channel('public:todos')
             .on(
@@ -22,13 +21,11 @@ function App() {
                     table: 'todos',
                 },
                 () => {
-                    // Recarrega todos quando há mudanças
                     controller.loadTodos(setTodos);
                 }
             )
             .subscribe();
 
-        // Cleanup
         return () => {
             subscription.unsubscribe();
         };
