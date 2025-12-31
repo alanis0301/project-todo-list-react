@@ -127,12 +127,13 @@ Este projeto contém os seguintes materiais:
 - **MVVM Architecture:** [mvvm-architecture/assets/images/](mvvm-architecture/assets/images/)
 
 ### 🎬 Vídeo de Demonstração
-- **Vídeo:** [video/Engenharia de Software - Arquiteturas de Frontend e Backend.mp4](video/Engenharia%20de%20Software%20-%20Arquiteturas%20de%20Frontend%20e%20Backend.mp4)
+- **Vídeo:** [Engenharia de Software - Arquiteturas de Frontend e Backend.mp4](video/Engenharia%20de%20Software%20-%20Arquiteturas%20de%20Frontend%20e%20Backend.mp4)
 - Demonstra o comportamento das arquiteturas REST e Reativa
 
+https://github.com/user-attachments/assets/0ebd2fda-ba83-4b96-9a9c-3ae3fcebf756
+
 ### 📄 Relatório Técnico
-- **Documento:** [docs/Relatório Técnico - Engenharia de Software.pdf](docs/Relat%C3%B3rio%20T%C3%A9cnico%20-%20Engenharia%20de%20Software.pdf)
-- Contém análise completa das arquiteturas implementadas
+- **Documento:** [Relatório Técnico - Engenharia de Software.pdf](docs/Relat%C3%B3rio%20T%C3%A9cnico%20-%20Engenharia%20de%20Software.pdf)
 
 ---
 
@@ -253,7 +254,7 @@ curl -i -X DELETE \
 
 ## 🎥 Demonstração do Comportamento
 
-https://github.com/user-attachments/assets/seu-video-id-aqui
+https://github.com/user-attachments/assets/987937ac-fcf0-4089-b739-43f16f4f164e
 
 > **Obs.:** Para assistir o vídeo em maior qualidade, acesse: [https://www.youtube.com/watch?v=q1Na-ZnYeis](https://www.youtube.com/watch?v=q1Na-ZnYeis)
 
